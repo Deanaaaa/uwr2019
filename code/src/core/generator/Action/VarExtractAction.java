@@ -1,4 +1,4 @@
-package core.generator.Action;
+﻿package core.generator.Action;
 
 import com.aspose.words.IReplacingCallback;
 
@@ -12,7 +12,7 @@ import core.render.ImgRender;
  * 统一Word报告生成系统（UWR）
  * 变量抽取类
  * @author 张学龙
- * @author 朴勇 15641190702
+ * @author 朴勇 15641190702 skr
  * 
  */
 abstract class VarExtractAction implements IReplacingCallback, DataSourceType {
