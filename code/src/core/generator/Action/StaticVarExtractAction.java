@@ -1,4 +1,4 @@
-package core.generator.Action;
+﻿package core.generator.Action;
 
 import org.apache.logging.log4j.Logger;
 
@@ -14,7 +14,7 @@ import core.render.LiteralRender;
 /**
  * 统一Word报告生成系统（UWR）
  * 静态变量处理类
- * @author 张学龙
+ * @author 张学龙 hhhh
  * @author 朴勇 15641190702
  * 
  */
