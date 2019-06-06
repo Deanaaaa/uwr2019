@@ -2,6 +2,7 @@ package core.generator;
 import core.common.*;
 import org.easymock.EasyMock;
 import org.easymock.IAnswer;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -66,13 +67,15 @@ public class TestTemplateProcessor implements DataSourceType{
         //以上流程请在这里实现：
         //
         //
-        // 这里写代码wrjte here!
+        // 这里写代码
+
 		DataSourceConfig dataSourceConfig = EasyMock.createMock(DataSourceConfig.class);
 
 		List<DataSource>list = dataSourceConfig.getDataSources();
 		EasyMock.expect(list);
 
 		PowerMock.mockStatic(DataSourceConfig.class);
+
 
 
 
