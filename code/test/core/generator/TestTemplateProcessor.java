@@ -66,7 +66,7 @@ public class TestTemplateProcessor implements DataSourceType{
         //以上流程请在这里实现：
         //
         //
-        // 这里写代码
+        // 这里写代码wrjte here!
 		DataSourceConfig dataSourceConfig = EasyMock.createMock(DataSourceConfig.class);
 
 		List<DataSource>list = dataSourceConfig.getDataSources();
